@@ -1,5 +1,6 @@
 package vuchris.tacoma.uw.edu.homepagev3;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
@@ -21,6 +22,8 @@ public class LoginActivity extends AppCompatActivity {
         } else if (v.getId() == R.id.register_button) {
             fragment = new RegisterFragment();
         }
+
+
 
         //show
         if (fragment != null) {

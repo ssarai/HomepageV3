@@ -3,21 +3,23 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="vuchris.tacoma.uw.edu.homepagev3.SignInFragment">
+    tools:context="vuchris.tacoma.uw.edu.homepagev3.SignInFragment"
+    android:background="@drawable/gradiant_background">
 
     <!-- username -->
     <EditText
         android:id="@+id/username"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:hint="@string/username" />
 
     <!-- password -->
     <EditText
         android:id="@+id/password"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:hint="@string/password" />
+        android:hint="@string/password"
+        android:password="true" />
 
 </LinearLayout>

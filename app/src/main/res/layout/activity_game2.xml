@@ -8,43 +8,44 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="vuchris.tacoma.uw.edu.homepagev3.HomePageActivity"
+    tools:context=".GameActivity2"
     android:background="@drawable/gradiant_background">
 
-    <!-- display highest score -->
 
-    <!-- button to instruction -->
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/hangman_logo"/>
 
     <Button
-        android:id="@+id/instructions"
-        android:layout_width="140dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/launch_instructions"
-        android:onClick="launch"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
-
-    <!-- button to game -->
-    <Button
-        android:id="@+id/game"
-        android:layout_width="140dp"
-        android:layout_height="wrap_content"
-        android:text="@string/launch_game"
-        android:onClick="launch"
+        android:text="Easy"
+        android:id="@+id/easy_button"
+        android:onClick="easy_game"
         android:layout_gravity="center_horizontal" />
     <Button
-        android:layout_width="140dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Invite A Friend!"
-        android:id="@+id/invite_button"
-        android:onClick="launch"
+        android:text="Medium"
+        android:id="@+id/medium_button"
+        android:onClick="medium_game"
         android:layout_gravity="center_horizontal" />
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        android:id="@+id/hard_button"
+        android:onClick="hard_game"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scores"
+        android:id="@+id/score_button"
+        android:onClick="check_score"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

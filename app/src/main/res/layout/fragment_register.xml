@@ -3,12 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="vuchris.tacoma.uw.edu.homepagev3.RegisterFragment">
+    tools:context="vuchris.tacoma.uw.edu.homepagev3.RegisterFragment"
+    android:background="@drawable/gradiant_background">
 
     <!-- email -->
     <EditText
         android:id="@+id/email"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:hint="@string/email" />
@@ -16,26 +17,17 @@
     <!-- username -->
     <EditText
         android:id="@+id/username"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:hint="@string/username" />
 
     <!-- password -->
     <EditText
         android:id="@+id/password"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="@string/password"
-        android:text="@string/text"/>
-
-    <!-- confirm password -->
-    <EditText
-        android:id="@+id/confirm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="@string/confirm_password"
-        android:text="@string/text"/>
+        android:password="true" />
 
 </LinearLayout>

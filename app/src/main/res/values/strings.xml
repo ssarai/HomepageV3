@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HomepageV3</string>
+    <string name="app_name">HANGMAN</string>
 
     <!-- strings for signing in and registering -->
     <string name="email">Enter Email</string>

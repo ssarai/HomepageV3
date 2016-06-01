@@ -8,20 +8,34 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="vuchris.tacoma.uw.edu.homepagev3.LoginActivity">
+    tools:context="vuchris.tacoma.uw.edu.homepagev3.LoginActivity"
+    android:background="@drawable/gradiant_background"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hangmanLogo"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hangman_logo"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp" />
+
 
     <Button
         android:id="@+id/signin_button"
-        android:layout_width="wrap_content"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="@string/launch_signin_dialog"
-        android:onClick="launch" />
+        android:onClick="launch"
+        android:layout_gravity="center_horizontal" />
 
     <Button
         android:id="@+id/register_button"
-        android:layout_width="wrap_content"
+        android:layout_width="115dp"
         android:layout_height="wrap_content"
         android:text="@string/launch_register_dialog"
-        android:onClick="launch" />
+        android:onClick="launch"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

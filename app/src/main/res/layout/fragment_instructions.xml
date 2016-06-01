@@ -3,47 +3,56 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="vuchris.tacoma.uw.edu.homepagev3.InstructionsFragment">
+    tools:context="vuchris.tacoma.uw.edu.homepagev3.InstructionsFragment"
+    android:background="@drawable/gradiant_background">
 
     <!-- a set of instructions -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/heading_instructions" />
+        android:text="@string/heading_instructions"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_rule1" />
+        android:text="@string/game_rule1"
+        android:textColor="@color/colorPrimaryDark" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_rule2" />
+        android:text="@string/game_rule2"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_rule3" />
+        android:text="@string/game_rule3"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_rule4" />
+        android:text="@string/game_rule4"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_rule5" />
+        android:text="@string/game_rule5"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_rule6" />
+        android:text="@string/game_rule6"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/game_rule7" />
+        android:text="@string/game_rule7"
+        android:textColor="@color/colorPrimaryDark"/>
 
 </LinearLayout>
